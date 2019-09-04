@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Delion</string>
+    <string name="delivery">배달</string>
+    <string name="convenient">생활정보</string>
+    <string name="frequent">문의하기</string>
+    <string name="more">더보기</string>
+    <string name="search">검색</string>
+    <string name="title">사자가 배달할 때</string>
+    <string name="back">  </string>
+
+
+</resources>

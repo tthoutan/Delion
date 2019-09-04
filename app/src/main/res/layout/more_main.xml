@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="8"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="340dip"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:text="어플 소개"
+        android:id="@+id/intro_app"
+        android:background="#00467F"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dip"
+        />
+    <Button
+        android:layout_width="340dip"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:text="개발진 소개"
+        android:id="@+id/intro_dev"
+        android:background="#00467F"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="4"
+        android:text="개발자에게 문의하실 사항이 있으시면\n 아래 '문의하기' 버튼을 눌러주세요."
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="65dp"
+            android:text="배달"
+            android:background="#00467F"
+            android:textColor="#ffffff"
+
+            android:id="@+id/deli"
+            android:layout_marginRight="1dip"/>
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="65dp"
+            android:text="생활정보"
+            android:background="#00467F"
+            android:id="@+id/inf"
+            android:textColor="#ffffff"
+            android:layout_marginRight="1dip"/>
+
+        <Button
+            android:layout_height="65dp"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="문의하기"
+            android:background="#00467F"
+            android:layout_marginRight="1dip"
+            android:textColor="#ffffff"
+            android:id="@+id/fre"/>
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="65dp"
+            android:textColor="#ffffff"
+
+            android:text="더보기"
+            android:background="#00467F"
+            android:id="@+id/more"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

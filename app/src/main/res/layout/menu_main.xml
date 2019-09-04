@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout android:id="@+id/appbar"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="0dip"
+        android:id="@+id/menu_pnumber"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="8"
+    android:orientation="vertical">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="3">
+    <ImageView
+        android:layout_marginLeft="10dip"
+        android:layout_width="110dip"
+        android:layout_height="match_parent"
+        android:src="@drawable/circle"
+        android:id="@+id/circle1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:layout_alignLeft="@id/circle1"
+        android:layout_alignTop="@id/circle1"
+        android:layout_alignRight="@id/circle1"
+        android:layout_alignBottom="@id/circle1"
+        android:paddingBottom="8dip"
+        android:layout_margin="10dip"
+        android:textColor="#000000"
+
+
+        />
+    <ImageView
+        android:layout_marginLeft="10dip"
+        android:layout_width="110dip"
+        android:layout_height="match_parent"
+        android:src="@drawable/circle"
+        android:id="@+id/circle2"
+        android:layout_toRightOf="@+id/circle1"/>
+    <TextView
+        android:layout_alignLeft="@id/circle2"
+        android:layout_alignTop="@id/circle2"
+        android:layout_alignRight="@id/circle2"
+        android:layout_alignBottom="@id/circle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:layout_toRightOf="@+id/text1"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:layout_margin="10dip"
+        android:paddingBottom="8dip"
+        android:textColor="#000000"
+
+
+        />
+    <ImageView
+        android:layout_marginLeft="10dip"
+        android:layout_width="110dip"
+        android:layout_height="match_parent"
+        android:src="@drawable/circle"
+        android:id="@+id/circle3"
+        android:layout_toRightOf="@+id/circle2"
+        />
+    <ImageView
+        android:layout_alignLeft="@id/circle3"
+        android:layout_alignTop="@id/circle3"
+        android:layout_alignRight="@id/circle3"
+        android:layout_alignBottom="@id/circle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text3"
+        android:layout_toRightOf="@+id/text2"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:layout_margin="10dip"
+        android:paddingBottom="8dip"
+        android:textColor="#000000"
+        android:src="@drawable/call"
+        android:padding="10dp"
+
+
+        />
+
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="10">
+
+    <com.forif.park.delion.AnimatedExpandableListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/elv_crazy"
+        >
+    </com.forif.park.delion.AnimatedExpandableListView>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+
+
+    <!-- 바디 리스트뷰, 서버로부터 메뉴 데이터 받아옴 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="8"
+        >
+    <ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/List_View_Main"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+    >
+
+    </ListView>
+    </LinearLayout>
+    <!-- 리스트뷰 끝-->
+
+
+    <!-- 하단 탭바 부분 -->
+
+    <!-- 탭바 끝 -->
+
+</LinearLayout>
